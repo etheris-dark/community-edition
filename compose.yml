@@ -56,7 +56,7 @@ services:
     environment:
       - TMPDIR=/var/lib/plausible/tmp
       # required: https://github.com/plausible/community-edition/wiki/configuration#required
-      - BASE_URL=${BASE_URL}
+      - BASE_URL==https://plausible.example.com
       - SECRET_KEY_BASE=${SECRET_KEY_BASE}
       # optional: https://github.com/plausible/community-edition/wiki/configuration#optional
       # registration: https://github.com/plausible/community-edition/wiki/configuration#registration
