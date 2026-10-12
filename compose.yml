@@ -56,8 +56,8 @@ services:
     environment:
       - TMPDIR=/var/lib/plausible/tmp
       # required: https://github.com/plausible/community-edition/wiki/configuration#required
-      - BASE_URL==https://plausible.example.com
-      - SECRET_KEY_BASE=${SECRET_KEY_BASE}
+      - BASE_URL=https://plausible.simplyhometech.com
+      - SECRET_KEY_BASE=7/QEt1fJKcDxXVGDprwUSR7lVUOFJLvN1SpWThQ4zOARCIdY44JbZNA3z+ncTsp5
       # optional: https://github.com/plausible/community-edition/wiki/configuration#optional
       # registration: https://github.com/plausible/community-edition/wiki/configuration#registration
       - TOTP_VAULT_KEY
